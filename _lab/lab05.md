@@ -115,8 +115,9 @@ bad expression: operator(s) left on stack at end
 -bash-4.3$ ./evalfull
 enter expression: ( 4 7 )
 bad expression: empty stack where operator expected
-Step 4: Learn how to evaluate postfix expressions with a stack
 ```
+## Step 4: Learn how to evaluate postfix expressions with a stack
+
 First switch roles between pilot and navigator if you did not already do that.
 
 We are most accustomed to arithmetic expressions in infix form - number operator number - where the operator is between the two numbers, as in 7 + 5. With this form, it is necessary to consider the precedence of operators and the effects of parentheses, which makes 7 + 5 * 3 different than (7 + 5) * 3, for example.
